@@ -1,3 +1,21 @@
+@import '../assets/style/media-query.scss';
+@import '../assets/style/common.scss';
+ion-menu{
+  @include for-desktop-up {    
+    @include setProperty(max-width,15%)
+  }
+}
+.d-flex{
+  @include setProperty(display,flex)
+}
+.avatar{
+  @include setProperty(width,7.5rem);
+  @include setProperty(height,7.5rem);
+}
+.profile-name{
+  @include setProperty(text-align,center);
+  @include setProperty(font-weight,600);
+}
 ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }
