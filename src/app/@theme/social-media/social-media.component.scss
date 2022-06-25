@@ -4,7 +4,7 @@
     position:relative;
     top:42%;
     left:50%;
-    transform: translate(-50%, -15%);
+    transform: translate(-50%, -10%);
     margin:0;
     padding:0;
     display:flex;
@@ -20,12 +20,12 @@
     height:50px;
     display:block;
     text-align:center;
-    margin:0 10px;
+    margin:0 7px;
     border-radius: 50%;
     padding: 6px;
     box-sizing: border-box;
     text-decoration:none;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
     background: linear-gradient(0deg, #ddd, #fff);
     transition: .5s;
   }

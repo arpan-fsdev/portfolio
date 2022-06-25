@@ -16,6 +16,11 @@ ion-menu{
   @include setProperty(text-align,center);
   @include setProperty(font-weight,600);
 }
+#inbox-list{
+  @include setProperty(position,relative);
+  @include setProperty(top,1%);
+  @include setProperty(left,2%);
+}
 ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }
